@@ -1,0 +1,33 @@
+{
+    "name": "lcpswoole/framework",
+    "description": "the new swoole framework",
+    "type": "library",
+    "keywords": [
+        "framework",
+        "lcpswoole",
+        "async",
+        "swoole"
+    ],
+    "homepage": "http://lcpswoole.cn/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "lcp",
+            "email": "1169246310@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "lcpswoole\\": "src"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.laravel-china.org"
+        }
+    }
+}
